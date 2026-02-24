@@ -136,23 +136,6 @@ gunicorn --bind 0.0.0.0:5000 "run:app"
 - Run the Flask app and try uploading a small image via the UI or `POST /api/upload`.
 - Run `python setup_dataset.py` to download/upload sample data.
 
-## License
 
-This project does not include a license file. Add an appropriate `LICENSE` (e.g. MIT, Apache 2.0) before publishing or sharing the code.
 
-## Publishing to GitHub
 
-1. Create a new repository on GitHub.
-2. In your local project folder:
-   ```bash
-   git remote add origin <your-github-url>
-   git branch -M main
-   git push -u origin main
-   ```
-3. Your code and `.gitignore` are already prepared; large media files are excluded.
-
-Once pushed, install the app anywhere by cloning the repo, creating a `.env`, and following the Quickstart section.
-
----
-
-_Generated README based on repository files and scripts._
