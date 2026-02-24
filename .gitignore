@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask instance folder
+instance/
+
+# Environment files
+.env
+.env.*
+
+# Uploaded media and generated thumbnails
+uploads/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Database
+*.sqlite3
+
+# Ignore build artifacts
+build/
+dist/
+
+# ignore pptx or other docs
+*.pptx
